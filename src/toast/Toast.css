@@ -1,0 +1,40 @@
+.toast{
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    opacity: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #a81e1c;
+    z-index: 1000;
+    color: white;
+    transition: all 0.5s;
+    font-size: 14px;
+}
+.error{
+   
+    opacity: 0;
+    padding: 3px;
+    border-radius: 5px;
+   font-size: 13px;
+    z-index: 1000;
+    color: rgb(219, 19, 19);
+   
+}
+
+
+.toast.display{
+    opacity: 1;
+}
+
+.toast.hide{
+    opacity: 0;
+}
+
+.error.display{
+    opacity: 1;
+}
+
+.error.hide{
+    opacity: 0;
+}
