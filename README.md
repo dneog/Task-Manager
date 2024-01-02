@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Application Features
 1. User can create a task with task name, description and category.
 2. User can read, update and delete the task.
-3. User can minnmize the hamburger for better work experience.
+3. User can minimize the hamburger for better work experience.
 
 ## Technologies Used
 React.js, react-router-dom, redux, redux-toolkit, redux-saga
